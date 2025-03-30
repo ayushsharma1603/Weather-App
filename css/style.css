@@ -24,20 +24,19 @@ div{
     justify-content: center;
     align-items: center;
     font-family: "Roboto", sans-serif;
-    
 }
 
 .card{
     background: linear-gradient(-35deg, #4d301f, #ecd6bd);
     border-radius: 35px;
     padding: 36px;
-    padding-left: 50px;
-    padding-right: 50px;
+    padding-left: 4vh;
+    padding-right: 4vh;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
-    width: 40vh;
+    width: 50vh;
     height: 70%;
     /* gap: 9px; */
     box-sizing: border-box;
@@ -56,8 +55,8 @@ div{
 
 .weather-icon {
     width: 100%;
-    max-width: 150px; /* Adjust this based on your design */
-    height: auto;
+    max-width: 150px;
+    height: 20vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -68,7 +67,7 @@ div{
     max-width: 100%;  /* Ensures image doesn't exceed parent width */
     height: auto;
     object-fit: contain;
-    transform: scale(1);
+    transform: scale(1.2);
 }
 
 /* Fix for temperature h1 overflowing parent */
