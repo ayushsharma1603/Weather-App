@@ -109,9 +109,8 @@ input{
     border: none;
     border-radius: 30px;
     text-align: center;
-    padding: 5px;
-    height: 3vh;
-    width: 25vh;
+    height: 4.5vh;
+    width: 35vh;
     font-weight: bold;
     color: #212121;
     font-size: larger;
@@ -214,3 +213,27 @@ span div{
     justify-content: center;
     align-items: center;
 }
+
+@media (max-width: 600px) {
+    .search{
+        width: 39vh;
+        height: 80%;
+        flex-direction: column;
+        gap: 20%;
+    }
+    .card{
+        width: 39vh;
+        height: 80%;
+    }
+
+    input{
+        height: 6vh;
+        width: 31vh;
+    }
+
+    #btn{
+        width: 60px;
+        height: 60px;
+    }
+}
+
