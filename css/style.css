@@ -68,7 +68,7 @@ div{
     max-width: 100%;  /* Ensures image doesn't exceed parent width */
     height: auto;
     object-fit: contain;
-    transform: scale(1.5);
+    transform: scale(1);
 }
 
 /* Fix for temperature h1 overflowing parent */
