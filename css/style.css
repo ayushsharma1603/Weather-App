@@ -214,7 +214,7 @@ span div{
     align-items: center;
 }
 
-@media (max-width: 400px) {
+@media (max-width: 340px) {
     .search{
         width: 39vh;
         height: 80%;
