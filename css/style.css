@@ -186,11 +186,8 @@ span div {
     flex: 1; /* Allow text to take up remaining space */
 }
 
-h2 {
-    font-size: 4vh;
-    
-    max-width: 100%;
-    
+#w , #h{
+    font-size: 2.6vh;
 }
 
 h4 {
@@ -220,7 +217,7 @@ span div{
     align-items: center;
 }
 
-@media screen and (max-width: 370px) and (max-height: 900px) {
+@media screen and (max-width: 450px) {
     .search{
         width: 39vh;
         height: 80%;
@@ -243,3 +240,14 @@ span div{
     }
 }
 
+@media screen and (max-width: 344px) {
+    .card{
+        width: 35vh;
+        height: 90%;
+
+    }
+
+    #w , #h{
+        font-size: 1em;
+    }
+}
