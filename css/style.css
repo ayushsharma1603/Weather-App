@@ -271,11 +271,25 @@ span div{
     align-items: center;
     justify-content: center;
     padding: 20px;
-    text-shadow: 1px 1px 3px wheat;
+    /* text-shadow: 1px 1px 3px wheat; */
     font-style: normal;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     transition: all 0.6s ease-in-out;
 }
+
+.bungee-tint-regular {
+    font-family: "Bungee Tint", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.bungee-tint-regular a{
+    font-family: "Bungee Tint", sans-serif;
+    color: bisque;
+    font-weight: 400;
+    font-style: normal;
+}
+  
 
 footer :hover{
     transform: scale(1.2);
