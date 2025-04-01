@@ -2,6 +2,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Gabarito:wght@400..900&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Tint&display=swap');
 div{
     display: flex;
     align-items: center;
@@ -27,8 +28,9 @@ body,html{
     width: 100vw;
     height: 100vh;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
+    flex-direction: column;
     font-family: "Roboto", sans-serif;
 }
 
@@ -37,6 +39,7 @@ body,html{
     border-radius: 35px;
     padding: 36px;
     padding-left: 4vh;
+    margin-top: 5.5%;
     padding-right: 4vh;
     display: flex;
     flex-direction: column;
@@ -238,6 +241,11 @@ span div{
         width: 60px;
         height: 60px;
     }
+
+    .footer{
+        margin-top: 1vh;
+        height: 5%;
+    }
 }
 
 @media screen and (max-width: 344px) {
@@ -250,4 +258,25 @@ span div{
     #w , #h{
         font-size: 1em;
     }
+}
+
+.footer{
+    background-color: black;
+    width: 100vw;
+    height: 10%;
+    font-size: 0.5em;
+    text-align: center;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    text-shadow: 1px 1px 3px wheat;
+    font-style: normal;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    transition: all 0.6s ease-in-out;
+}
+
+footer :hover{
+    transform: scale(1.2);
 }
