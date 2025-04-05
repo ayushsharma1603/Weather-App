@@ -35,7 +35,7 @@ body,html{
 }
 
 .card{
-    background: linear-gradient(-35deg, #4d301f, #ecd6bd);
+    background: linear-gradient(-35deg, #0b9cc5, #056382,rgb(184, 223, 246));
     border-radius: 35px;
     padding: 36px;
     padding-left: 4vh;
