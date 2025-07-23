@@ -294,3 +294,11 @@ span div{
 footer :hover{
     transform: scale(1.2);
 }
+
+.canvas{
+    background-image: url("../images/bgClouds.jpg");
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+}

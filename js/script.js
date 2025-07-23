@@ -4,26 +4,22 @@ const inputCity = document.querySelector('#inputField');
 const tempContainer = document.querySelector('#temp');
 const cityContainer = document.querySelector('#city');
 
-// Background color change
-let colors = ["#5a708f", "#3c4e6e", "#a3c1d9", "#65718d", "#4e5c76",'#212121',"#515151"];
-let canvas = document.querySelector('.canvas');
-canvas.style.transition = 'background-color 2s ease-in-out';
+window.addEventListener('load',async function() {
+    
+   await fetchWeather("New York");
+});
+
 
 
 inputCity.addEventListener('focus', function() {
     inputField.setAttribute('placeholder', '');
 });
 
-inputField.addEventListener('blur', function() {
+inputCity.addEventListener('blur', function() {
     if (!inputField.value) {
         inputField.setAttribute('placeholder', 'Enter city name');
     }
 });
-
-setInterval(() => {
-    let color = colors[Math.floor(Math.random() * colors.length)];
-    canvas.style.backgroundColor = color; 
-}, 2000);
 
 async function fetchWeather(city) {
     try {
@@ -48,7 +44,8 @@ async function fetchWeather(city) {
     }
 }
 
-fetchWeather("New York");
+
+
 
 inputCity.addEventListener("keydown", async function(event) {
     if(event.key==='Enter'){
